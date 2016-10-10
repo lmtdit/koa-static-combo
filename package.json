@@ -1,6 +1,6 @@
 {
   "name": "koa-static-combo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A static files combo server for Koa",
   "main": "./lib",
   "scripts": {
@@ -41,5 +41,16 @@
     "mocha-phantomjs": "^4.1.0",
     "openurl": "^1.1.1",
     "phantomjs": "^2.1.7"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmtdit/koa-static-combo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmtdit/koa-static-combo/issues"
+  },
+  "homepage": "https://github.com/lmtdit/koa-static-combo#readme"
 }
