@@ -1,0 +1,20 @@
+root: true
+extends: airbnb/base
+env:
+  node: true
+  mocha: true
+  commonjs: true
+
+globals:
+  fis3: true
+
+rules:
+  strict: [2, global]
+  no-unused-vars: [2, args: none]
+  comma-dangle: [2, never]
+  no-param-reassign: [2, { props: false }]
+  no-underscore-dangle: 0
+  no-else-return: 0
+  eol-last: 0
+  arrow-body-style: 0
+  max-len: [2, 120, 2, { ignoreUrls: true, ignoreComments: true}]
