@@ -1,6 +1,6 @@
 {
   "name": "koa-static-combo",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "A static files combo server for Koa",
   "main": "./lib",
   "scripts": {
@@ -52,5 +52,11 @@
   "bugs": {
     "url": "https://github.com/lmtdit/koa-static-combo/issues"
   },
-  "homepage": "https://github.com/lmtdit/koa-static-combo#readme"
+  "homepage": "https://github.com/lmtdit/koa-static-combo#readme",
+  "keywords": [
+    "koa",
+    "static",
+    "combo",
+    "server"
+  ]
 }
